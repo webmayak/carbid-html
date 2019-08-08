@@ -1386,8 +1386,7 @@ ul.page-breadcrumb li a:hover { color: #db2d2e; }
 .sorting-options .selected-box { display: inline-block; padding: 4px; border-color: #e3e3e3; width: 100%; }
 
 /*.car-grid */
-.product-listing .car-grid { margin-top: 30px; }
-.product-listing .car-grid { border: 1px solid #e3e3e3; padding: 20px; }
+.product-listing .car-grid { margin-bottom: 30px; border: 1px solid #e3e3e3; padding: 20px; }
 .product-listing .car-grid .car-item { margin-top: 0px; }
 .product-listing .car-grid .car-title a { position: relative; padding-bottom: 10px; margin-bottom: 10px; display: inline-block; font-size: 20px; text-transform: uppercase; font-weight: 600; color: #363636; }
 .product-listing .car-grid .car-title a:before { position: absolute; content: ""; width: 20px; height: 2px; background: #db2d2e; left: 0; bottom: 0px; }
