@@ -1,0 +1,36 @@
+.header {
+  background-color: $bg;
+  padding: 35px 0;
+}
+
+.header__logo {
+  height: 36px;
+}
+
+.header__menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  font-family: "Roboto", "Helvetica", sans-serif;
+
+  li {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    margin-right: 25px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  a {
+    color: inherit;
+    transition: 0.15s;
+
+    &:hover {
+      color: $accent;
+      text-decoration: none;
+    }
+  }
+}
