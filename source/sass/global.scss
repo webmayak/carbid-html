@@ -2,7 +2,7 @@ body {
   font-family: "Ubuntu", "Helvetica", sans-serif;
   color: $text;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.4;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -13,15 +13,6 @@ img {
   max-height: 100%;
   height: auto;
   vertical-align: bottom;
-}
-
-h1 {
-  font-size: 40px;
-  line-height: 1;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 500;
-  margin-bottom: 0.5em;
 }
 
 .visually-hidden {
@@ -48,10 +39,4 @@ h1 {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-}
-
-@media (max-width: 575px) {
-  h1 {
-    font-size: 30px;
-  }
 }

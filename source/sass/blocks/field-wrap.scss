@@ -1,16 +1,12 @@
 .field-wrap {
   margin-bottom: 15px;
 
-  label {
-    margin-bottom: 4px;
-  }
-
   &__field {
     display: block;
     width: 100%;
     color: inherit;
     border-radius: 4px;
-    padding: 10px 15px;
+    padding: 12px 15px;
     background: #f6f6f6;
     border: 1px solid transparent;
     transition: 0.15s ease-in-out;
@@ -24,13 +20,12 @@
 }
 
 .field-wrap--checkbox {
-  position: relative;
-  padding-left: 20px;
+  display: flex;
+  align-items: flex-start;
 
   input[type="checkbox"] {
-    position: absolute;
-    margin-top: 5px;
-    margin-left: -20px;
+    margin-top: 3px;
+    margin-right: 5px;
   }
 
   label {

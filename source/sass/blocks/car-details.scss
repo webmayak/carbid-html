@@ -1,0 +1,36 @@
+.car-details {
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+}
+
+.car-details__table {
+  width: 100%;
+  font-weight: 500;
+
+  tr:last-child td {
+    border-bottom: none;
+  }
+}
+
+.car-details__key,
+.car-details__value {
+  padding: 10px 0;
+  border-bottom: 1px dotted #dddddd;
+}
+
+.car-details__value {
+  text-align: right;
+  padding-left: 10px;
+}
+
+@media (max-width: 991px) {
+  .car-details {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 575px) {
+  .car-details__table {
+    font-size: 13px;
+  }
+}
