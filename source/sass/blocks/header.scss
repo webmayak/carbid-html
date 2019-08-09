@@ -4,14 +4,13 @@
 }
 
 .header__logo {
-  height: 36px;
+  max-height: 36px;
 }
 
 .header__menu {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
-  font-family: "Roboto", "Helvetica", sans-serif;
 
   li {
     text-transform: uppercase;

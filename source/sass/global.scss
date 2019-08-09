@@ -1,5 +1,5 @@
 body {
-  font-family: "Open Sans", "Helvetica", sans-serif;
+  font-family: "Ubuntu", "Helvetica", sans-serif;
   color: $text;
   font-size: 14px;
   line-height: 24px;
@@ -16,7 +16,6 @@ img {
 }
 
 h1 {
-  font-family: "Roboto", "Helvetica", sans-serif;
   font-size: 40px;
   line-height: 1;
   text-align: center;
@@ -49,4 +48,10 @@ h1 {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+
+@media (max-width: 575px) {
+  h1 {
+    font-size: 30px;
+  }
 }
