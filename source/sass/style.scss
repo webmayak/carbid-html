@@ -1,8 +1,9 @@
 @import "fonts.scss";
 @import "vars.scss";
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
-@import "bootstrap-redefine.scss";
 @import "global.scss";
+@import "blocks/field-wrap.scss";
+@import "blocks/button.scss";
 @import "blocks/header.scss";
 @import "blocks/footer.scss";
 @import "blocks/page-content.scss";

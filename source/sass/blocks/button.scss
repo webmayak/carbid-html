@@ -1,0 +1,19 @@
+.button {
+  display: inline-block;
+  background-color: $accent;
+  border: 1px solid $accent;
+  color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  font-weight: 500;
+  padding: 12px 15px;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: 0.15s ease-in-out;
+
+  &:hover {
+    background-color: $accent-darken;
+    border-color: $accent-darken;
+  }
+}
