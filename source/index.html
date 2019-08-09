@@ -1,43 +1,6 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-  <meta charset="utf-8">
-  <title>Title</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="format-detection" content="telephone=no">
-  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-  <link rel="preload" href="fonts/opensans.woff2" as="font" crossorigin="anonymous">
-  <link rel="preload" href="fonts/opensansbold.woff2" as="font" crossorigin="anonymous">
-  <link rel="preload" href="fonts/roboto-regular.woff2" as="font" crossorigin="anonymous">
-  <link rel="preload" href="fonts/roboto-500.woff2" as="font" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style.min.css">
-</head>
-<body>
+<include src="source/include/head.html"></include>
 
-  <header class="header">
-    <nav class="header__nav">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-6">
-            <a class="header__logo-link" href="index.html">
-              <img class="header__logo" src="img/logo-trade-smkh.svg" alt="logo">
-            </a>
-          </div>
-          <div class="col-6">
-            <ul class="header__menu ul-reset">
-              <li>
-                <a href="listing.html">Объявления</a>
-              </li>
-              <li>
-                <a href="details.html">Карточка</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </nav>
-  </header>
+  <include src="source/include/header.html"></include>
 
   <main class="page-content">
     <div class="container">
@@ -65,21 +28,16 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab inventore dolore nam, consequuntur ad assumenda delectus accusantium reiciendis, possimus voluptatibus blanditiis earum dolor, tenetur facere quisquam nemo distinctio. Accusantium quis maxime quos accusamus deserunt adipisci, sint inventore eveniet dicta nemo enim facilis in quia eligendi temporibus placeat veniam vel nesciunt.</p>
           </div>
           <ul class="numbers ul-reset">
-            <li class="numbers__item"><span class="numbers__count">6758</span> объявлений</li>
-            <li class="numbers__item"><span class="numbers__count">526</span> пользователей</li>
+            <li class="numbers__item">
+              <span class="numbers__count">6758</span> объявлений
+            </li>
+            <li class="numbers__item">
+              <span class="numbers__count">526</span> пользователей
+            </li>
           </ul>
         </div>
       </div>
     </div>
   </main>
 
-  <footer class="footer">
-    <div class="container">
-      <p>Размещенная на сайте информация о ценах и наличии товаров не является договором публичной оферты, определяемой положениями ст. 437.2 ГK РФ</p>
-      <p>© ООО "Саммит Моторс (Хабаровск)" 2019</p>
-    </div>
-  </footer>
-
-  <script src="js/scripts.min.js"></script>
-</body>
-</html>
+<include src="source/include/footer.html"></include>
