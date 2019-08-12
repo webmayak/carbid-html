@@ -4,15 +4,8 @@
   line-height: 1.6;
 }
 
-.about-us__title {
-  font-size: 40px;
-  line-height: 1.2;
-  font-weight: 500;
-  margin-bottom: 20px;
-}
-
-@media (max-width: 575px) {
-  .about-us__title {
-    font-size: 30px;
+@media (max-width: 767px) {
+  .about-us {
+    margin-top: 30px;
   }
 }
