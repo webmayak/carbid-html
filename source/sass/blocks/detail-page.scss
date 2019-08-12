@@ -1,0 +1,19 @@
+.detail-page__car-details {
+  margin-bottom: 20px;
+}
+
+.detail-page__state {
+  margin-bottom: 15px;
+}
+
+@media (max-width: 991px) {
+  .detail-page__car-details {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  .detail-page__interaction {
+    margin-bottom: 20px;
+  }
+}

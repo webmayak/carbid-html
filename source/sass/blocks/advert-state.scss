@@ -1,0 +1,27 @@
+.advert-state {
+  display: flex;
+  align-items: baseline;
+  font-weight: 500;
+
+  &--none {
+    color: #999999;
+  }
+
+  &--your {
+    color: $accent;
+  }
+
+  &--other {
+    color: $alternate;
+  }
+
+  &--success {
+    color: $accent;
+  }
+}
+
+@media (max-width: 1199px) {
+  .advert-state {
+    margin-bottom: 10px;
+  }
+}

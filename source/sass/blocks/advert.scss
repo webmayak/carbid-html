@@ -1,0 +1,38 @@
+.advert {
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.05);
+  margin-bottom: 30px;
+}
+
+.advert__content {
+  padding: 20px;
+  position: relative;
+}
+
+.advert__title-link {
+  display: inline-block;
+  color: inherit;
+  transition: 0.15s ease-in-out;
+
+  &:hover {
+    text-decoration: none;
+    color: $accent;
+  }
+}
+
+.advert__title {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 1199px) {
+  .advert__params {
+    border-bottom: 1px dotted #dddddd;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 575px) {
+  .advert__interaction {
+    margin-bottom: 15px;
+  }
+}

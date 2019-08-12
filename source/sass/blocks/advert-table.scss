@@ -1,0 +1,15 @@
+.advert-table {
+  width: 100%;
+  font-weight: 500;
+}
+
+.advert-table__key,
+.advert-table__value {
+  padding-bottom: 10px;
+  vertical-align: baseline;
+}
+
+.advert-table__value {
+  text-align: right;
+  padding-left: 10px;
+}

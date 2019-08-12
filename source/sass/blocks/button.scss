@@ -1,7 +1,7 @@
 .button {
   display: inline-block;
   background-color: $accent;
-  border: 1px solid $accent;
+  border: none;
   color: #ffffff;
   text-align: center;
   vertical-align: middle;
@@ -14,6 +14,5 @@
 
   &:hover {
     background-color: $accent-darken;
-    border-color: $accent-darken;
   }
 }
