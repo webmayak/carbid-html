@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Title</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="preload" href="fonts/ubuntu-400.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/ubuntu-500.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/ubuntu-700.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/ubuntu-300.woff2" as="font" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+</body></html>
+
+<div style="display: none">
+  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <symbol id="icon-fire" viewbox="0 0 384 512">
+      <path fill="currentColor" d="M216 23.86c0-23.8-30.65-32.77-44.15-13.04C48 191.85 224 200 224 288c0 35.63-29.11 64.46-64.85 63.99-35.17-.45-63.15-29.77-63.15-64.94v-85.51c0-21.7-26.47-32.23-41.43-16.5C27.8 213.16 0 261.33 0 320c0 105.87 86.13 192 192 192s192-86.13 192-192c0-170.29-168-193-168-296.14z"></path>
+    </symbol>
+    <symbol id="icon-flag" viewbox="0 0 448 512">
+      <path fill="currentColor" d="M444.373 359.424c0 7.168-6.144 10.24-13.312 13.312-28.672 12.288-59.392 23.552-92.16 23.552-46.08 0-67.584-28.672-122.88-28.672-39.936 0-81.92 14.336-115.712 29.696-2.048 1.024-4.096 1.024-6.144 2.048v77.824c0 21.405-16.122 34.816-33.792 34.816-19.456 0-34.816-15.36-34.816-34.816V102.4C12.245 92.16 3.029 75.776 3.029 57.344 3.029 25.6 28.629 0 60.373 0s57.344 25.6 57.344 57.344c0 18.432-8.192 34.816-22.528 45.056v31.744c4.124-1.374 58.768-28.672 114.688-28.672 65.27 0 97.676 27.648 126.976 27.648 38.912 0 81.92-27.648 92.16-27.648 8.192 0 15.36 6.144 15.36 13.312v240.64z"></path>
+    </symbol>
+    <symbol id="icon-step" viewbox="0 0 448 512">
+      <path fill="currentColor" d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z"></path>
+    </symbol>
+  </svg>
+</div>
+
+
+<header class="header">
+  <nav class="header__nav">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-6">
+          <a class="header__logo-link" href="index.html">
+            <img class="header__logo" src="img/logo-trade-smkh.svg" alt="logo">
+          </a>
+        </div>
+        <div class="col-6">
+          <ul class="header__menu ul-reset">
+            <li>
+              <a href="listing.html">Объявления</a>
+            </li>
+            <li>
+              <a href="details.html">Карточка</a>
+            </li>
+            <li>
+              <a href="archive.html">Архив</a>
+            </li>
+            <li>
+              <a href="typo.html">Типографика</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+
+
+<main class="page">
+  <div class="container">
+    <ul class="breadcrumbs ul-reset">
+      <li>
+        <a href="listing.html">Все объявления</a>
+      </li>
+      <li>
+        <span>Активные</span>
+      </li>
+    </ul>
+    <h1 class="page__title">Объявления</h1>
+    <div class="advert">
+      <div class="row no-gutters">
+        <div class="col-xl-3 col-lg-5 col-md-4">
+          <img class="advert__photo" src="https://picsum.photos/id/111/545/380" alt="">
+        </div>
+        <div class="col-xl-9 col-lg-7 col-md-8">
+          <div class="advert__content">
+            <div class="row align-items-baseline">
+              <div class="col-xl-8">
+                <a class="advert__title-link" href="details.html">
+                  <h3 class="advert__title">Toyota Prius 2018 г.в</h3>
+                </a>
+              </div>
+              <div class="col-xl-4">
+                <div class="advert__state advert-state advert-state--none">Предложений пока нет</div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xl-4">
+                <div class="advert__params">
+                  <table class="advert__table advert-table">
+                    <tr>
+                      <td class="advert-table__key">Объем двигателя</td>
+                      <td class="advert-table__value">1.50</td>
+                    </tr>
+                    <tr>
+                      <td class="advert-table__key">Номер кузова (VIN)</td>
+                      <td class="advert-table__value">123FWJIOQ123213</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="col-xl-4 col-sm-6">
+                <div class="advert__interaction interaction interaction--proposal">
+                  <div class="interaction__date">Завершение 2 июл. 2019 г., 4:05:00</div>
+                  <div class="interaction__number-list">
+                    <div class="interaction__number">
+                      <svg class="interaction__number-icon" width="12" height="16" aria-hidden="true" role="presentation" focusable="false">
+                        <use xlink:href="#icon-flag"></use>
+                      </svg>
+                      1 000 000
+                    </div>
+                    <div class="interaction__number">
+                      <svg class="interaction__number-icon" width="14" height="16" aria-hidden="true" role="presentation" focusable="false">
+                        <use xlink:href="#icon-step"></use>
+                      </svg>
+                      10 000
+                    </div>
+                  </div>
+                  <button type="button" class="button">Предложить цену</button>
+                </div>
+              </div>
+              <div class="col-xl-4 col-sm-6">
+                <div class="advert__interaction interaction interaction--buy">
+                  <div class="interaction__date">Выкуп до 30 июн. 2019 г., 19:25:00</div>
+                  <div class="interaction__number-list">
+                    <div class="interaction__number">
+                      <svg class="interaction__number-icon" width="14" height="16" aria-hidden="true" role="presentation" focusable="false">
+                        <use xlink:href="#icon-fire"></use>
+                      </svg>
+                      1 200 000
+                    </div>
+                  </div>
+                  <button type="button" class="button">Выкупить</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="advert">
+      <div class="row no-gutters">
+        <div class="col-xl-3 col-lg-5 col-md-4">
+          <img class="advert__photo" src="https://picsum.photos/id/1072/545/380" alt="">
+        </div>
+        <div class="col-xl-9 col-lg-7 col-md-8">
+          <div class="advert__content">
+            <div class="row align-items-baseline">
+              <div class="col-xl-8">
+                <a class="advert__title-link" href="details.html">
+                  <h3 class="advert__title">Toyota Prius 2018 г.в</h3>
+                </a>
+              </div>
+              <div class="col-xl-4">
+                <div class="advert__state advert-state advert-state--your">Ваше предложение: 1 000 000</div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xl-4">
+                <div class="advert__params">
+                  <table class="advert__table advert-table">
+                    <tr>
+                      <td class="advert-table__key">Объем двигателя</td>
+                      <td class="advert-table__value">1.50</td>
+                    </tr>
+                    <tr>
+                      <td class="advert-table__key">Номер кузова (VIN)</td>
+                      <td class="advert-table__value">123FWJIOQ123213</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="col-xl-4 col-sm-6">
+                <div class="advert__interaction interaction interaction--proposal">
+                  <div class="interaction__date">Завершение 2 июл. 2019 г., 4:05:00</div>
+                  <div class="interaction__number-list">
+                    <div class="interaction__number">
+                      <svg class="interaction__number-icon" width="12" height="16" aria-hidden="true" role="presentation" focusable="false">
+                        <use xlink:href="#icon-flag"></use>
+                      </svg>
+                      1 000 000
+                    </div>
+                    <div class="interaction__number">
+                      <svg class="interaction__number-icon" width="14" height="16" aria-hidden="true" role="presentation" focusable="false">
+                        <use xlink:href="#icon-step"></use>
+                      </svg>
+                      10 000
+                    </div>
+                  </div>
+                  <button type="button" class="button">Предложить цену</button>
+                </div>
+              </div>
+              <div class="col-xl-4 col-sm-6">
+                <div class="advert__interaction interaction interaction--buy">
+                  <div class="interaction__date">Выкуп до 30 июн. 2019 г., 19:25:00</div>
+                  <div class="interaction__number-list">
+                    <div class="interaction__number">
+                      <svg class="interaction__number-icon" width="14" height="16" aria-hidden="true" role="presentation" focusable="false">
+                        <use xlink:href="#icon-fire"></use>
+                      </svg>
+                      1 200 000
+                    </div>
+                  </div>
+                  <button type="button" class="button">Выкупить</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="advert">
+      <div class="row no-gutters">
+        <div class="col-xl-3 col-lg-5 col-md-4">
+          <img class="advert__photo" src="https://picsum.photos/id/1071/545/380" alt="">
+        </div>
+        <div class="col-xl-9 col-lg-7 col-md-8">
+          <div class="advert__content">
+            <div class="row align-items-baseline">
+              <div class="col-xl-8">
+                <a class="advert__title-link" href="details.html">
+                  <h3 class="advert__title">Toyota Prius 2018 г.в</h3>
+                </a>
+              </div>
+              <div class="col-xl-4">
+                <div class="advert__state advert-state advert-state--other">Последнее предложение: 1 000 000</div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xl-4">
+                <div class="advert__params">
+                  <table class="advert__table advert-table">
+                    <tr>
+                      <td class="advert-table__key">Объем двигателя</td>
+                      <td class="advert-table__value">1.50</td>
+                    </tr>
+                    <tr>
+                      <td class="advert-table__key">Номер кузова (VIN)</td>
+                      <td class="advert-table__value">123FWJIOQ123213</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="col-xl-4 col-sm-6">
+                <div class="advert__interaction interaction interaction--proposal">
+                  <div class="interaction__date">Завершение 2 июл. 2019 г., 4:05:00</div>
+                  <div class="interaction__number-list">
+                    <div class="interaction__number">
+                      <svg class="interaction__number-icon" width="12" height="16" aria-hidden="true" role="presentation" focusable="false">
+                        <use xlink:href="#icon-flag"></use>
+                      </svg>
+                      1 000 000
+                    </div>
+                    <div class="interaction__number">
+                      <svg class="interaction__number-icon" width="14" height="16" aria-hidden="true" role="presentation" focusable="false">
+                        <use xlink:href="#icon-step"></use>
+                      </svg>
+                      10 000
+                    </div>
+                  </div>
+                  <button type="button" class="button">Предложить цену</button>
+                </div>
+              </div>
+              <div class="col-xl-4 col-sm-6">
+                <div class="advert__interaction interaction interaction--buy">
+                  <div class="interaction__date">Выкуп до 30 июн. 2019 г., 19:25:00</div>
+                  <div class="interaction__number-list">
+                    <div class="interaction__number">
+                      <svg class="interaction__number-icon" width="14" height="16" aria-hidden="true" role="presentation" focusable="false">
+                        <use xlink:href="#icon-fire"></use>
+                      </svg>
+                      1 200 000
+                    </div>
+                  </div>
+                  <button type="button" class="button">Выкупить</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="advert">
+      <div class="row no-gutters">
+        <div class="col-xl-3 col-lg-5 col-md-4">
+          <img class="advert__photo" src="https://picsum.photos/id/1070/545/380" alt="">
+        </div>
+        <div class="col-xl-9 col-lg-7 col-md-8">
+          <div class="advert__content">
+            <div class="row align-items-baseline">
+              <div class="col-xl-8">
+                <a class="advert__title-link" href="details.html">
+                  <h3 class="advert__title">Toyota Prius 2018 г.в</h3>
+                </a>
+              </div>
+              <div class="col-xl-4">
+                <div class="advert__state advert-state advert-state--success">Поздравляем! Объявление снято</div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xl-4">
+                <div class="advert__params">
+                  <table class="advert__table advert-table">
+                    <tr>
+                      <td class="advert-table__key">Объем двигателя</td>
+                      <td class="advert-table__value">1.50</td>
+                    </tr>
+                    <tr>
+                      <td class="advert-table__key">Номер кузова (VIN)</td>
+                      <td class="advert-table__value">123FWJIOQ123213</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="col-xl-4 col-sm-6">
+                <div class="advert__interaction interaction interaction--proposal">
+                  <div class="interaction__date">Завершение 2 июл. 2019 г., 4:05:00</div>
+                  <div class="interaction__number-list">
+                    <div class="interaction__number">
+                      <svg class="interaction__number-icon" width="12" height="16" aria-hidden="true" role="presentation" focusable="false">
+                        <use xlink:href="#icon-flag"></use>
+                      </svg>
+                      1 000 000
+                    </div>
+                    <div class="interaction__number">
+                      <svg class="interaction__number-icon" width="14" height="16" aria-hidden="true" role="presentation" focusable="false">
+                        <use xlink:href="#icon-step"></use>
+                      </svg>
+                      10 000
+                    </div>
+                  </div>
+                  <button type="button" class="button">Предложить цену</button>
+                </div>
+              </div>
+              <div class="col-xl-4 col-sm-6">
+                <div class="advert__interaction interaction interaction--buy">
+                  <div class="interaction__date">Выкуп до 30 июн. 2019 г., 19:25:00</div>
+                  <div class="interaction__number-list">
+                    <div class="interaction__number">
+                      <svg class="interaction__number-icon" width="14" height="16" aria-hidden="true" role="presentation" focusable="false">
+                        <use xlink:href="#icon-fire"></use>
+                      </svg>
+                      1 200 000
+                    </div>
+                  </div>
+                  <button type="button" class="button">Выкупить</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Размещенная на сайте информация о ценах и наличии товаров не является договором публичной оферты, определяемой положениями ст. 437.2 ГK РФ</p>
+      <p>&copy; ООО "Саммит Моторс (Хабаровск)" 2019</p>
+    </div>
+  </footer>
+
+  <script src="js/scripts.min.js"></script>
+
+
+
