@@ -6,30 +6,3 @@
 .header__logo {
   max-height: 45px;
 }
-
-.header__menu {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-
-  li {
-    text-transform: uppercase;
-    font-size: 13px;
-    font-weight: 500;
-    margin-right: 25px;
-
-    &:last-child {
-      margin-right: 0;
-    }
-  }
-
-  a {
-    color: inherit;
-    transition: 0.15s;
-
-    &:hover {
-      color: $accent;
-      text-decoration: none;
-    }
-  }
-}
