@@ -52,7 +52,12 @@ gulp.task("css", function () {
 
 gulp.task("scripts", function () {
   return pipeline(
-    gulp.src("source/js/*.js"),
+    gulp.src([
+      "source/js/jquery-3.4.1.min.js",
+      "source/js/jquery.growl.js",
+      "source/js/slick.min.js",
+      "source/js/scripts.js"
+      ]),
     concat("scripts.min.js"),
     uglify(),
     gulp.dest("build/js")

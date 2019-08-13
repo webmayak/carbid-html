@@ -2,6 +2,7 @@
   "extends": "stylelint-config-htmlacademy",
 
   "rules": {
+    "selector-max-id": 1,
     "declaration-no-important": true,
     "indentation": [2, {"ignore": ["inside-parens"]}]
   }
